@@ -1,0 +1,45 @@
+:root{
+    
+    font-family: 'Comfortaa', sans-serif;
+}
+body{
+    background-image:url(https://img.freepik.com/foto-gratis/vista-superior-elementos-orientacion-profesional-jueces_23-2149443471.jpg?size=626&ext=jpg)
+
+}
+form{
+    background-color: silver;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 600px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input,select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+/*button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}*/
+button{
+     background-color: black;
+    color: bisque;
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+    

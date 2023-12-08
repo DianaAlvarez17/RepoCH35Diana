@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--La declaración que representa el tipo de documento y le ayuda al navegador a mostrar correctamente las páginas web-->
+<!--No distingue entre mayúsculas y minusculas-->
+<!-- Para indicar que habrá un comentario-->
+<!--CTRL+ S: para guardar cambios-->
+<!--ALT+Z : ajustar el texto-->
+<!---->
+    <html lang="en">
+        <!--El elemento html: Encierra todo el contenido de la página entera y, a veces se le conoce como elemento raíz-->
+<head>
+    <!--Actúa como un contenedor de todo aquello que quieres incluir en la página HTML,que no es visible para los usuarios de la página. Puede incluir palabras clave, una descripción, código CSS para dar estilo al contenido.  -->
+    <meta charset="UTF-8">
+    <!--Esta etiqueta especifica la codificación de caracteres utilizada en la página web. En este caso, se establece la codificación de caracteres estándar que admite una amplia variedad de idiomas y caracteres especiales.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Esta etiqueta se utiliza para establecer el tamaño y la escala inicial de la página web en dispositivos móviles. Se establece el ancho de la página en 1.0 así como está ahorita xd. Esto asegura que la página se adapte bien a diferentes tamaños en dispositivos.-->
+    <title>INTRODUCCIÓN A HTML</title> <!--Título que aparecera en el navegador.-->
+</head>
+<body>
+    <!--Van todos los elementos del sitio-->  
+    <!-- Encierra todo el contenidos que deseas mostrar a los usuarios que visiten tu página, ya sea texto, imagen, video, juegos, pistas de audio, etc.-->
+    <p>¿Por qué entre a Generation? 
+        Porque me interesó desde la plática por la que los conocí y por el mercado laboral que existe para un desarrollador, ya que las ofertas de la carrera que estudié no son tan favorables. Además al no tener trabajo, veo como algo produuctivo aprender cosas nuevas. 
+    </p> <!--Para indicar que aquí escribiremos un párrafo-->
+    <!--Etiquetas de cabecera(h1.....h6)-->
+    <h1> Generation</h1> <!--El título principal-->
+    <h2>  </h2>
+    <h3> </h3>
+    <h4> </h4>
+    <h5> </h5>
+    <h6> </h6>
+
+    <br> <!--El elemento HTML <br> define un salto de línea sin comenzar un nuevo párrafo-->
+    <br>
+    <br>
+    <hr> <!--La <hr> etiqueta define una ruptura temática en una página HTML y, con mayor frecuencia, se muestra como una regla horizontal. Se usa para separar el contenido (o definir un cambio) en un página HTML-->
+   
+    <!--Atributos-->
+    <!--Atributos globales: Son aquellos que se aplicar a todos los elementos del documento, y no dependen de la etiqueta. Entre los atributos globlales más importantes están:
+    
+        - Class: Se usa para especificar una clase CSS que se aplicará a un elemento. Por ejemplo <div class="clase1 clase2">.
+        
+        - id: Se usa para especificar un identificador unico para un elemento (el valor debe ser único dentro del documento HTML).
+
+        - Style: Se usa para especificar una propiedad CSS que se aplicará a un elemento. El atributo HTML style se usa para agregar estilos a un elemento, como color, fuente, tamaño y más. -->
+        <h/3> Atributos HTML</h>
+        <p align="justify" style="color: blue;">Los atributos html proporcionan información adicional sobre elementos. 
+            <br>
+            Todos los elementos HTML pueden tener atributos y estos Los atributos siempre se especifican en la etiqueta de inicio, generalmente vienen en pares de nombre, valor como: nombre="valor". 
+            Aquí debe salir justificado aqunnque no es lo ideal
+        </p>
+        <p style="color:blueviolet;">Mira este enlace.</p>
+        <br>
+        <hr>
+        <!--Etiquetas de párrafos de texto
+            Nos sirven para crear párrafos de nuestro documento. 
+       Las etiquetas de párrafo tienen una serie de atributos que nos permiten deifnir el tamaño, color, estilo, etc. 
+     <p align="center">
+    <p align="right">
+    <p align="left">
+    <p align="justify">-->
+
+
+        <!--Etiquetas Semanticas: fragmentos de texto
+    Son etiquetas HTML simples para seleccionar un fragmento de texto y dotarlo de un significado semántico especial. Lo principal es entender que no se hace sólo por mera intención visual, sino porque se le quiere dar un significado semántico, y además, quizás también por una cuestión visual
+    https://lenguajehtml.com/html/texto/que-son/
+-->
+<p align="center" style= "background-color: brown;"color: aqua;>
+    <b> <em>HIPERTEXTO </em></b> <!--etiqueta em texto enfatizado--> <!--Etiqueta b formato en negrita-->
+    <br> hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. <u> Los enlaces son un aspecto fundamental de la Web. </u> <!--La etiqueta u nos da formato subrayado--> <del> Al subir contenido a Internet y vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «World Wide Web» (Red Informática Mundial). </del> <!-- etiqueta del texto tachado--> </p>
+    <br>
+    <hr>
+    <!--Etiquetas de enlace.-->
+    <!--Los enlaces nos permiten la navegacion por medio de hipervinculos (links) que realizan una conexion y referencian otros archivos o paginas web dentro de la misma aplicacion o externa a la misma.
+
+    En HTML 5 se pueden definir los enlaces con la etiqueta a que significa "anchor" o ancla. Esta etiqueta tiene varios atributos:
+
+    - href: nos permite definir la ubicación de la página a la que nos vamos a enlazar. Este atributo puede ser una URL (externa) o un archivo dentro de nuestra carpeta del proyecto (assets). La dirección va entre comillas.El atributo href. La <a>etiqueta define un hipervínculo. El href-atributo especifica la URL de la página a la que va el enlace.
+
+    - target: Define la ventana de destino, que puede ser una ventana nueva o la misma ventana.
+        - _blank: abre el enlace en una nueva ventana.
+        - _self: abre el enlace en la misma ventana. Este es el valor por defecto.
+        Ya que sabemos como hacer referencias a paginas, es importante conocer las distintas rutas de enlace y sus tipos.
+
+    - Rutas absolutas: Son aquellas que definien la ubicacion completa de un archivo o pagina web, por ejemplo: http://www.google.com.
+
+    - Rutas relativas: Son las que se definen a partir de la posicion en la estructura local de la pagina que lo esta refiriendo,es decir, solo indica el orden de directorios, por ejemplo: /assets/img/perritoplayero.jpg.
+-->
+<!--Etiqueta a: Anclaje-->
+<h4>Etiqueta a </h4>
+<a href="https://developer.mozilla.org/es/docs/Web/HTML" 
+target=""_blank >HTML</a><br>
+<br>
+<br>
+<a href="mailto:dianaalvarez7111@gmail.com">Enviar correo a Dianita</a>
+<br>
+<br>
+
+<!--Etiqueta de imagen: img
+La etiqueta imagen nos permite agregar una imagen en un documento web.En formatos más usados: JPG, png, gift. src (source) define la ubicación del archivo ya sea externo o interno.  
+ width: definimos ancho de imagen
+heigth: definimos el alto de nuestra imagen
+alt: agregamos una descripción a la imagen 
+-->
+<img src="Assets/caramelos.webp" width="400" height="400" alt="galletas de navidad">
+<br>
+<hr>
+<!--Listas Ordenadas y desordenadas-->
+<!--Listas ordenadas: Listas que tienen un orden (numeros o letras)
+    1.- Tacos al pastor
+    2 - Tacos de suadero
+    3.- Tacos de chicharron
+
+    a.- Tacos al pastor
+    b - Tacos de suadero
+    c.- Tacos de chicharron
+
+Listas desordenadas: Listas que NO tienen un orden (bullets o figuritas)
+
+    - Tacos al pastor
+    - Tacos de suadero
+    - Tacos de chicharron
+
+    <ol> Ordered list o lista ordenada </ol>
+    <li> List item o elemento de la lista </li>
+    <ul> desordenada
+
+-->
+<h3>Listas Ordenadas y Desordenadas</h3>
+
+<ol> Pasos para preparar una limonada
+    <br>
+    <br>
+    <li> reúne los limones, el lagua y el azúcar</li>
+    <li>Corta los limones y exprime en el agua </li>
+    <li>Se agrega azúcar a la jarra de agua</li>
+    <li>Revolver hasta disolver el azúcar y servir.</li>
+</ol>
+<br>
+<br>
+<ul> Lista de útiles
+    <br>
+    <br>
+    <li> Mochila</li>
+    <li>Cuaderno</li>
+    <li>Lapiceros</li>
+    <li>Tijeras</li>
+    <li>Atlas que no cabe en ningun lado</li>
+</ul>
+<br>
+<br>
+<hr>
+<!--Etiqueta Div-->
+<!--La <div>etiqueta define una división o una sección en un documento HTML.
+    La <div>etiqueta se utiliza como contenedor de elementos HTML, que luego se diseñan con CSS o se manipulan con JavaScript.
+    
+    La <div>etiqueta se diseña fácilmente usando el atributo class o id.
+    
+    ¡Se puede poner cualquier tipo de contenido dentro de la <div> etiqueta! 
+    
+    Nota: De forma predeterminada, los navegadores siempre colocan un salto de línea antes y después del <div>elemento.
+
+    Todos los atributos que se agreguen al div se aplicarán a todos los elementos. -->
+    <h2>Etiqueta Div</h2>
+    <div class="primera" style="background-color: blueviolet; border: 1px rgba(198, 250, 114, 0.555)"> <h4> Soy un encabezado dentro de un div</h4>
+    <p>Soy un párrafo dentro del mismo div</p> </div>
+    <p>Soy un párrafo fuera de un div</p>
+    <br>
+    <br>
+    <hr>
+    <!--La etiqueta <span> es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+
+    La etiqueta <span> se diseña fácilmente con CSS o se manipula con JavaScript usando el atributo class o id.
+    
+    La etiqueta <span> es muy parecida al elemento <div> , pero <div> es un elemento a nivel de bloque y <span>es un elemento en línea-->
+        <h3>El elemento span</h3>
+        <p>El elemento < span > es utilizado para agrupar texto u otros componentes HTML en un solo contenedor.
+        En la CH35, tomamos <span style="color: rgba(165, 42, 67, 0.69);"> cafecito en una taza </span>y nos gusta comer <span style="background-color: rgb(157, 0, 255);"> pan con nutella.</span>
+        </p>
+<!--La etiqueta <span> en HTML es un elemento en línea utilizado para aplicar estilos y manipular contenido en un fragmento de texto dentro de un documento HTML. Aunque en sí misma no tiene un efecto visual específico, se utiliza con frecuencia en conjunción con hojas de estilo (CSS) o manipulación de DOM mediante JavaScript para lograr varios efectos. Aquí hay algunos beneficios de usar la etiqueta <span>:
+
+Estilización con CSS: Puedes aplicar estilos específicos, como color de texto, tamaño de fuente, estilo de fuente, etc., a un fragmento específico de texto utilizando la etiqueta <span> y asignándole una clase o estilo directamente-->
+<br>
+<br>
+<h1 style="text-align:center"> PRÁCTICA ACTIVIDAD EN EQUIPO</h1>
+<hr>
+<p style="background-color: bisque;"> <span Style="color: blue;">De lunes a domingo voy desesperado</span>
+    El corazón prendido allí en el calendario
+    Buscándote y buscando como un mercenario
+    Tú dime donde estás que yo no te he encontrado
+    Las manecillas giran, yo voy al contrario
+    Bebiéndome la vida a sorbos y a tragos
+    Me viste así de frente, qué tremendo impacto
+    Para unirme a tu mirada dime si <del>hay que ser torero </del>
+</p>
+<hr>
+<img src="Assets/chango torero.gif" alt="chango torero">
+<br>
+<a style="text-align: center;"href=https://www.youtube.com/watch?v=GuZzuQvv7uc"> Hay que ser torero</a>
+<hr>
+<div style="background-color: blueviolet;">
+<h2 style=text-align:center;>LISTA DE SUPER</h2> </div>
+<ul>
+    <li>Pan</li>
+    <li>Leche</li>
+    <li>Chocomilk</li>
+    <li>1 kg de azúcar</li>
+    <li> Servilletas</li>
+    <li> Huevito kinder</li>
+</ul>
+
+
+</body>
+</html> <!--Da el cierre del documento HTML que iniciamos en el DOCTYPE-->
