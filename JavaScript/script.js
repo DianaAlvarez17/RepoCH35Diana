@@ -7,7 +7,7 @@ multilinea*/
 //alert("Hola mundo");
 
 
-console.log("Este es un mensaje para mi consola")
+/*console.log("Este es un mensaje para mi consola")*/
 
 
 /*var nombre=prompt ("Ingresa tu nombre");
@@ -22,11 +22,31 @@ console.log ("resta:"+ (numero1 - numero2));
 console.log ("multiplicación:"+ (numero1 * numero2));
 console.log ("división:"+ (numero1 / numero2)); */
 
-var nombre=prompt ("Ingresa tu nombre");
+/*var nombre=prompt ("Ingresa tu nombre");
 var edad= prompt("Ingresa tu edad");
 if(edad <17){
     alert(nombre+".Tas chavo, chavo");
 }
 else{
     alert(nombre+ ".Ya te sabes la de chambear");
-}
+} */
+
+//scope es el alcance de nuestras variables 
+/* var, let, const la diferencia  es el alcance
+var tiene un alcance global
+let tiene un alcance local
+const se mantiene sin ningun cambio*/
+
+/*string:cadena de texto (lleva comillas)
+number:numero
+noolena:true/false
+null:nulo
+undefinied: no está asignado o definido */
+
+let nombre = "Daniel";
+let invitadosExtras=2;
+let esMayorEdad= true;
+let edad=24;
+let invitadoEspecial=null;
+let horaDeSalida= undefined;
+

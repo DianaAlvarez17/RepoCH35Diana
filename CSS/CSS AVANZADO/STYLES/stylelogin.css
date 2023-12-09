@@ -1,0 +1,251 @@
+:root{
+   
+    
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+
+.form{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: white;
+}
+.rectanguloderecha{
+    width: 587px; 
+    height: 1032px; 
+    left: 853px; 
+    top: 0px; 
+    position: absolute; 
+    background: linear-gradient(90deg, rgba(180, 146, 253, 0.30) 0%, rgba(173, 78, 245, 0.95) 100%);
+}
+.rectanguloarriba{
+    width: 407px; 
+    height: 505px; 
+    left: 970px; 
+    top: 259px; 
+    position: absolute;
+    background-image: url(../ASSETS/developer_male-removebg-preview.png);
+}
+.cuerpoform{
+    width: 452px; 
+    height: 603px; 
+    left: 216px; 
+    top: 217px; 
+    position: absolute; 
+    background: rgba(217, 217, 217, 0);
+}
+.exteriorform{
+    width: 567px; 
+    height: 734px; 
+    left: 153px; 
+    top: 144px; 
+    position: absolute; 
+    opacity: 0.70; 
+    background: white; 
+    box-shadow: 20px 20px 60px rgba(93.50, 93.50, 93.50, 0.15);
+}
+.crearcuenta{
+    width: 400px; 
+    height: 57px; 
+    left: 216px; 
+    top: 217px; 
+    position: absolute; 
+    color: #1D1D1D; 
+    font-size: 36px;
+     font-family: Montserrat Alternates; 
+     font-weight: 600; 
+     word-wrap: break-word;
+}
+
+    
+.imggoogle{
+    width: 40px; 
+    height: 41px; 
+    left: 232px; 
+    top: 311px; 
+    position: absolute;
+}
+.textogoogle{
+    width: 140px; 
+    height: 27px; 
+    left: 281px; 
+    top: 318px; 
+    position: absolute; 
+    color: #1D1D1D; 
+    font-size: 22px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.imgapple{
+    width: 40px; 
+    height: 47px; 
+    left: 485px; 
+    top: 304px; 
+    position: absolute;
+}
+.textoapple{
+    width: 205px; 
+    height: 32px; 
+    left: 535px; 
+    top: 318px; 
+    position: absolute; 
+    color: #1D1D1D; 
+    font-size: 22px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.googlebutton{
+    width: 205px;
+    height: 70px; 
+    left: 216px; 
+    top: 296px; 
+    position: absolute; 
+    background: rgba(244, 241, 255, 0);
+     border-radius: 12px; 
+     border: 1px #1D1D1D solid; 
+}
+.applebutton{
+    width: 205px; 
+    height: 70px; 
+    left: 463px; 
+    top: 296px; 
+    position: absolute; 
+    background: rgba(244, 241, 255, 0); 
+    border-radius: 12px;
+     border: 1px #1D1D1D solid
+}
+.correo{
+    width: 205px; 
+    height: 32px; 
+    left: 216px; 
+    top: 426px; 
+    position: absolute; 
+    color: #1D1D1D; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.correoinput{
+    width: 452px; 
+    height: 67px; 
+    left: 216px; 
+    top: 458px; 
+    position: absolute; 
+    background: rgba(244, 241, 255, 0); 
+    border-radius: 12px; 
+    border: 1px #1D1D1D solid;
+}
+.placeholdercorreo{
+    width: 199px;
+     height: 37px; 
+     left: 243px; 
+     top: 473px; 
+     position: absolute; 
+     color: #6667B0; 
+     font-size: 20px; 
+     font-family: Montserrat; 
+     font-weight: 500; 
+     word-wrap: break-word;
+}
+.contraseña{
+    width: 205px; 
+    height: 32px; 
+    left: 216px; 
+    top: 547px; 
+    position: absolute; 
+    color: #1D1D1D; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.contraseñainput{
+    width: 452px; 
+    height: 67px; 
+    left: 216px; 
+    top: 579px; 
+    position: absolute; 
+    background: rgba(244, 241, 255, 0); 
+    border-radius: 12px; 
+    border: 1px #1D1D1D solid;
+}
+.placeholdercontraseña{
+    width: 221px; 
+    height: 45px; 
+    left: 243px; 
+    top: 591px; 
+    position: absolute; 
+    color: #6667B0; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+.loginbutton{
+    width: 452px; 
+    height: 67px; 
+    left: 216px; 
+    top: 697px; 
+    position: absolute; 
+    background: #6B43FF; 
+    border-radius: 12px;
+}
+.logintext{
+    width: 381px; 
+    height: 59px; 
+    left: 252px; 
+    top: 701px; 
+    position: absolute; 
+    text-align: center; color: #F4F1FF; 
+    font-size: 35px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+.alreadyhave{
+    width: 321px; 
+    height: 47px; 
+    left: 353px; 
+    top: 773px; 
+    position: absolute; 
+    text-align: right; 
+    color: #6B43FF; 
+    font-size: 22px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.linea1{
+    width: 205px; 
+    height: 0px; 
+    left: 216px; 
+    top: 391px; 
+    position: absolute; 
+    border: 1px #6667B0 solid;
+}
+.linea2{
+    width: 205px; 
+    height: 0px; 
+    left: 463px; 
+    top: 391px; 
+    position: absolute; 
+    border: 1px #6667B0 solid;
+}
+.or{
+    width: 54px; 
+    height: 44px; 
+    left: 431px; 
+    top: 375px; 
+    position: absolute; 
+    color: black; 
+    font-size: 22px; 
+    font-family: Montserrat;
+     font-weight: 500; 
+     word-wrap: break-word; 
+}
