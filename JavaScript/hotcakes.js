@@ -1,4 +1,4 @@
-//De npumero a cadena
+//De número a cadena
 let cantidadHarina = 200;
 let cantidadHarinaStr = String(cantidadHarina);
 console.log("Cantidad de harina: " + cantidadHarinaStr + " gramos");
@@ -28,7 +28,7 @@ let requiereAceite = false;
 let requiereAceiteNum = Number(requiereAceite);
 console.log("¿Requiere aceite? " + requiereAceiteNum);
 
-var instrucciones = [
+let instrucciones = [
     "1. En un tazón grande, mezcla la harina, el azúcar, el polvo de hornear y la sal.",
     "2. Agrega el huevo, la leche y la mantequilla.",
     "3. Mezcla bien hasta obtener una masa suave.",
@@ -39,36 +39,15 @@ var instrucciones = [
     "8. Sirve caliente con tu jarabe o frutas favoritas.",
   ];
   console.log("\nInstrucciones:");
-for (var j = 0; j < instrucciones.length; j++) {
+for (let j = 0; j < instrucciones.length; j++) {
   console.log(instrucciones[j]);
 }
 
-/*/ De número a cadena (string)
-let cantidadHarina = 200; // Se declara una variable con valor numérico.
-let cantidadHarinaStr = String(cantidadHarina); // Se convierte el número a cadena.
-console.log("Cantidad de harina: " + cantidadHarinaStr + " gramos"); // Se imprime la cadena resultante.
 
-// De cadena a número
-let cantidadAzucarStr = "50"; // Se declara una variable con valor de cadena.
-let cantidadAzucar = Number(cantidadAzucarStr); // Se convierte la cadena a número.
-console.log("Cantidad de azúcar: " + cantidadAzucar + " gramos"); // Se imprime el número resultante.
 
-// De booleano a cadena
-let tieneHuevos = true; // Se declara una variable con valor booleano.
-let tieneHuevosStr = String(tieneHuevos); // Se convierte el booleano a cadena.
-console.log("¿Tiene huevos? " + tieneHuevosStr); // Se imprime la cadena resultante.
-// De cadena a booleano
-let tieneLecheStr = "true"; // Se declara una variable con valor de cadena.
-let tieneLeche = Boolean(tieneLecheStr); // Se convierte la cadena a booleano.
-console.log("¿Tiene leche? " + tieneLeche); // Se imprime el booleano resultante.
 
-// De número a booleano
-let temperaturaSarten = 180; // Se declara una variable con valor numérico.
-let temperaturaSartenBool = Boolean(temperaturaSarten); // Se convierte el número a booleano.
-console.log("¿La sartén está caliente? " + temperaturaSartenBool); // Se imprime el booleano resultante.
 
-// De booleano a número
-let requiereAceite = false; // Se declara una variable con valor booleano.
-let requiereAceiteNum = Number(requiereAceite); // Se convierte el booleano a número.
-console.log("¿Requiere aceite? " + requiereAceiteNum); // Se imprime el número resultante.
-*/
+
+
+
+
